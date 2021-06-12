@@ -37,6 +37,8 @@ void load_gauguin() {
     property_override("ro.build.product", "gauguin");
     property_override("ro.product.device", "gauguin");
     property_override("ro.product.marketname", "Mi 10T Lite");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
 }
 
 void load_gauguininpro() {
@@ -44,6 +46,9 @@ void load_gauguininpro() {
     property_override("ro.build.product", "gauguininpro");
     property_override("ro.product.device", "gauguininpro");
     property_override("ro.product.marketname", "Mi 10i");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+
 }
 
 void load_gauguinpro() {
@@ -52,6 +57,8 @@ void load_gauguinpro() {
     property_override("ro.product.device", "gauguinpro");
     property_override("ro.product.marketname", "Redmi Note 9 Pro");
     property_override("ro.product.brand", "Redmi");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
 }
 
 void vendor_load_properties() {
