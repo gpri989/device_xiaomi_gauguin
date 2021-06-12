@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_gauguin.mk
+    $(LOCAL_DIR)/potato_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_gauguin-user \
-    evolution_gauguin-userdebug \
-    evolution_gauguin-eng
+    potato_gauguin-user \
+    potato_gauguin-userdebug \
+    potato_gauguin-eng
