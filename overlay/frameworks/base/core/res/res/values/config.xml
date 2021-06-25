@@ -637,4 +637,7 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Whether device has notification LED --> 
+    <bool name="config_hasNotificationLed">true</bool>
 </resources>
