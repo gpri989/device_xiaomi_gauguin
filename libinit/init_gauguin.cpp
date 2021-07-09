@@ -123,8 +123,8 @@ void set_device_props(const std::string fingerprint, const std::string descripti
 }
 
 void vendor_load_properties() {
-    char const fp[] = "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys";
-    char const fp_desc[] = "redfin-user 11 RQ3A.210605.005 7349499 release-keys";
+    char const fp[] = "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys";
+    char const fp_desc[] = "redfin-user 11 RQ3A.210705.001 7380771 release-keys";
     string region = android::base::GetProperty("ro.boot.hwc", "");
 
     if (region == "INDIA") {
