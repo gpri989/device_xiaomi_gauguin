@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     DevicesOverlay \
-    DevicesAndroidOverlay
+    DevicesAndroidOverlay \
+    SystemUIOverlayGauguin
 
 # Permissions
 PRODUCT_COPY_FILES += \

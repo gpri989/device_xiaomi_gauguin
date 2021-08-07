@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SystemUIOverlayGauguin",
+    sdk_version: "current",
+    resource_dirs: ["res"],
+}
