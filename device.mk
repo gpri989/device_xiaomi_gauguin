@@ -188,13 +188,13 @@ PRODUCT_PACKAGES += \
     WifiOverlay
 
 # WiFi Display
-PRODUCT_PACKAGES += \
-    libdisplayconfig.qti \
-    libnl \
-    libqdMetaData \
-    libavservices_minijail \
-    libavservices_minijail_32 \
-    vendor.display.config@2.0
+#PRODUCT_PACKAGES += \
+#    libdisplayconfig.qti \
+#    libnl \
+#    libqdMetaData \
+#    libavservices_minijail \
+#    libavservices_minijail_32 \
+#    vendor.display.config@2.0
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
